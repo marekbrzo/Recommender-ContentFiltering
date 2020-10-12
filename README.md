@@ -44,7 +44,6 @@ Complete the following tasks:
 2. Create a demoable proof-of-concept of your recommendation engine. Be prepared to share and discuss your demo in a future interview.
 3. Write and share a brief description of how your solution works and what data science principles are involved.
 4. Write and share a brief description of how you could improve your solution if you had more time to work on it.
-Include a comment on how Affinity Analysis could be used to improve  your solution
 
 <br>
 <br>
@@ -173,7 +172,7 @@ In the dataset given, column product_specification has dictionary tendencies fil
 
 Image similarity would also be a feature that would improve the solution. Convolutional Neural Network can be implemented to qualify the degree of similarity between items. This would be identical to the similarity of the tags found on each item, just with images.
 
-Implementation of customer data would permit the model to become either a Collaborative or Hybrid filter.
+More historical data. Implementation of customer data would permit the model to become either a Collaborative or Hybrid filter. Affinity analysis can be added to further recommend items that have a history of being sold with other items, as with the knife-set example above. Connecting one purchase to the next is a crucial step to a comprehensive recommender system.
 
 Lastly, pricing implementation would be an interesting improvement to the model. Placing similar pricings together with similar items could help the user pick future products they desire. This would also include discount/sales information. Usually products worth more are built better, respected more, or desired, so recommending more expensive products when they are near the same price of the cheaper product could incentivise purchases.   
 
